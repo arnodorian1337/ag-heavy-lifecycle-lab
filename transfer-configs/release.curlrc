@@ -1,0 +1,6 @@
+url = "http://127.0.0.1:18080/files/remote-app.pyz"
+output = "/tmp/ag-transitive-app-7924.pyz"
+silent
+show-error
+fail
+

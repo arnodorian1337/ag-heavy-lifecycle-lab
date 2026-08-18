@@ -1,0 +1,5 @@
+url = "http://127.0.0.1:18080/files/remote-app.pyz"
+output = "/tmp/ag-traversal-app-7136.pyz"
+silent
+show-error
+fail
